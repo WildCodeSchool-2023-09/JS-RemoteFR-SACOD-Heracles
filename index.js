@@ -9,7 +9,7 @@ Heracles.fight(Lion);
 
 let round = 1;
 while (Heracles.life !== 0 && Lion.life !== 0) {
-  console.log(`🕛 Round #${round}`);
+  console.log(`⌛ Round #${round}`);
   Heracles.fight(Lion);
   Lion.fight(Heracles);
   round++;
@@ -17,8 +17,8 @@ while (Heracles.life !== 0 && Lion.life !== 0) {
 
 if (Heracles.isAlive()) {
   console.log(`\n💀 ${Lion.name} is dead`);
-  console.log(`🏆 ${Heracles.name} wins (💙 ${Heracles.life})`);
+  console.log(`🏆 ${Heracles.name} wins (${Heracles.life}❤️ )`);
 } else {
   console.log(`\n💀 ${Heracles.name} is dead`);
-  console.log(`🏆 ${Lion.name} wins (💙 ${Lion.life})`);
+  console.log(`🏆 ${Lion.name} wins (${Lion.life}❤️ )`);
 }

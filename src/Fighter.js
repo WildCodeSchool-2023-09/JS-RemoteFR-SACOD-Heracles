@@ -27,7 +27,7 @@ class Fighter {
     defender.setLife(defender.life - damage);
 
     console.log(
-      `${this.name} 🗡️  ${defender.name} 💙${defender.name} : ${defender.life}`
+      `${this.name} ⚔️  ${defender.name} 🛡️ ${defender.name} : ${defender.life}❤️`
     );
   }
 
